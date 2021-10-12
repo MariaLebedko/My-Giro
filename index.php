@@ -5,7 +5,6 @@
     <link rel="stylesheet" href="style.css"><!-- Подключаю файл style.css -->
     <link rel="stylesheet" type="text/css" href="main.css"><!-- Подключаю файл main.css -->
 </head>
-</head>
 <body>
 <header>
 	<title>My-Giro</title><!-- Название страницы -->
