@@ -1,0 +1,99 @@
+body {
+	margin: 0% auto; /* Отступ по центру */
+	background: linear-gradient(to bottom, #5f6787, #290066); /* фон */
+}
+
+header {
+	background-color: #1f2d61;/* Фон */
+	padding: 15px 30px 15px 30px; /* Внутренние отступы */
+	display: flex;
+	justify-content: space-between; /* Выравнивание по краям блока */
+	margin-bottom: 50px; /* Внешний нижний отступ */
+}
+
+.logo{
+	display: flex;
+	align-items: center; /* Выравнивание флекс-блоков по цетру */
+}
+
+.logo-img{
+		max-width: 300; /* Максимальная ширина */
+		max-height: 200; /* Максимальная высота */
+		border-radius: 30%; /* Закругление краев рамки */	
+}
+
+.phone{
+		color: white;/* Цвет текста */
+		font-size: 30;/* Размер текста */
+		font-weight: 600;/* Толщина текста */
+		font-family: Helvetica;/* Шрифт */
+		align-items: center;
+		display: flex;
+}
+
+.pbutton{
+	    margin-left: 50px; /* Внешний отступ слева */
+	    margin-top: 20px; /* Внещний отступ сверху */
+		max-width: 100; /* Максимальная ширина */
+		max-height: 100; /* Максимальная высота */
+		display: flex;
+		align-items: center;
+}
+
+.back{
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	width: 100px;
+}
+#back{
+	max-width: 100px;
+	position: fixed;
+	right: 50px;
+	bottom: 30px;
+	transform: rotate(90deg);
+}
+
+.wrapper{
+
+		max-width: 75%;
+		margin: 50 auto; /* Внешний отступ верх-низ-50, по горизонтали атво*/
+}
+
+.part{
+	    margin-top: 70px;
+		display: flex;
+		background-color: #2f1242;
+		border-radius: 50px;
+		align-items: center;
+		transition: 1s;/* определяет время трансформации */
+}
+
+.tech-img{
+	    height: 300px;
+		margin:30px 40px 30px 30px;
+		min-width: 300px;
+		max-width: 300px;
+}
+.part:hover{
+        transform: scale(1.2); /* трансформация увеличение в 1.2 */
+} 
+
+.data{
+	margin: 0 auto;
+	margin-top: 10px;
+	font-size: 15;
+	color: gray;
+	font-family: serif;
+}
+
+.text{
+	display: flex;
+	padding: 50px;
+	font-family: arial;
+	font-weight: bold;
+	color: #c2c2c2;
+	text-align: justify; /* выравнивание текста по ширине */
+	text-indent: 60px; /* отступ с красной строки */
+	font-size: 20;
+}
